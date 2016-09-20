@@ -52,6 +52,7 @@ html, body {
 	text-transform: lowercase;
 	float: left;
 	margin-left: 10px;
+	padding-bottom: 5px;
 }
 
 button {
@@ -142,10 +143,11 @@ button {
 #main {
 	margin: 0 auto;
 	height: 100vh;
-	color: #EFECE8;
+	color: #DDB853;
 	background: url("../img/pressure.jpg") no-repeat center;
 	background-size: cover;
-	padding-top: 120px;
+	padding-top: 150px;
+	font-size: 1.3em !important;
 } 
 
 #main p {
@@ -220,6 +222,12 @@ button {
 	margin-bottom: 25px;
 	/*border: 0 none !important;*/
 	background: transparent !important;
+}
+
+.project-description {
+	margin-left: auto;
+	margin-right: auto;
+	width: 24em;
 }
 
 /* FOOTER */
@@ -447,6 +455,9 @@ form > h2 {
  	}
  	.caret {
  		margin-top: 20px;
+ 	}
+ 	.dark {
+ 		color: 3B3B3B;
  	}
  	#popup {
  		top:  30%;
