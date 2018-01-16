@@ -1,0 +1,33 @@
+{
+  "name": "onomesotu.github.io",
+  "version": "1.0.1",
+  "description": "Personal portfolio page of my Front End projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onomesotu/onomesotu.github.io.git"
+  },
+  "keywords": [
+    "Javascript",
+    "jQuery",
+    "HTML",
+    "CSS",
+    "Portfolio",
+    "Front",
+    "End"
+  ],
+  "author": "Onome Sotu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onomesotu/onomesotu.github.io/issues"
+  },
+  "homepage": "https://github.com/onomesotu/onomesotu.github.io#readme",
+  "dependencies": {
+    "browser-sync": "^2.23.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0"
+  }
+}
