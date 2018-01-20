@@ -76,9 +76,6 @@ button {
  	color: #262626;
     background-color: #DDB853;
     -webkit-transition: all 0.5s linear;
-	-o-transition: all 0.5s linear;
-	-moz-transition: all 0.5s linear;
-	-ms-transition: all 0.5s linear;
 	-kthtml-transition: all 0.5s linear;
 	transition: all 0.5s linear;
 }
@@ -87,9 +84,6 @@ button {
     background-color: #DDB853;
     color: #262626;
     -webkit-transition: all 0.5s linear;
-	-o-transition: all 0.5s linear;
-	-moz-transition: all 0.5s linear;
-	-ms-transition: all 0.5s linear;
 	-kthtml-transition: all 0.5s linear;
 	transition: all 0.5s linear;
 }
@@ -98,9 +92,6 @@ button {
     background-color: #DDB853;
     color: #262626;
     -webkit-transition: all 0.5s linear;
-	-o-transition: all 0.5s linear;
-	-moz-transition: all 0.5s linear;
-	-ms-transition: all 0.5s linear;
 	-kthtml-transition: all 0.5s linear;
 	transition: all 0.5s linear;
 }
@@ -111,6 +102,7 @@ button {
 
 .dropdown-menu {
   border-radius: 0px; 
+  -webkit-box-shadow: none; 
   box-shadow: none; 
   border: none;
   min-width: 200px;
@@ -220,6 +212,7 @@ button {
 
 .thumbnail {
 	margin-bottom: 25px;
+	margin-top: 20px;
 	/*border: 0 none !important;*/
 	background: transparent !important;
 }
@@ -298,22 +291,16 @@ button {
 	padding: 10px 40px;
 	font-weight: bold;
 	-webkit-transition: all 0.5s linear;
-	-o-transition: all 0.5s linear;
-	-moz-transition: all 0.5s linear;
-	-ms-transition: all 0.5s linear;
 	-kthtml-transition: all 0.5s linear;
 	transition: all 0.5s linear;
 }
 
 .shadow {
   -webkit-box-shadow: 0px 0px 4px 2px #676767;
-  -moz-box-shadow: 0px 0px 4px 2px #676767;
   box-shadow: 0px 0px 4px 2px #676767;
   -webkit-transition: all 0.5s linear;
-  -o-transition: all 0.5s linear;
-  -moz-transition: all 0.5s linear;
-  -ms-transition: all 0.5s linear;
   -kthtml-transition: all 0.5s linear;
+  -webkit-transition: all .5s linear;
   transition: all .5s linear;
 }
 
@@ -392,9 +379,6 @@ form > h2 {
 .morph {
 	display: inline-block;
   -webkit-transition: all 0.5s ease;
-     -moz-transition: all 0.5s ease;
-       -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
           transition: all 0.5s ease;
 }
 
@@ -402,9 +386,6 @@ form > h2 {
 	display: inline-block;
   /*border-radius: 50%;*/
   -webkit-transform: rotate(360deg);
-     -moz-transform: rotate(360deg);
-       -o-transform: rotate(360deg);
-      -ms-transform: rotate(360deg);
           transform: rotate(360deg);
 }
 
