@@ -1,6 +1,6 @@
 # Portfolio Page #
 
-A Collation of my projects as I study to be software engineer. 
+A Collation of my projects as I study to become software engineer. 
 
 ## The following techologies were used: ##
 
